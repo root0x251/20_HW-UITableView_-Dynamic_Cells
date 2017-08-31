@@ -15,6 +15,7 @@
 		118D44661F589D5F004F86C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118D44641F589D5F004F86C4 /* LaunchScreen.storyboard */; };
 		118D44711F589D60004F86C4 /* _0_HW_UITableView__Dynamic_CellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D44701F589D60004F86C4 /* _0_HW_UITableView__Dynamic_CellsTests.m */; };
 		118D447C1F589D60004F86C4 /* _0_HW_UITableView__Dynamic_CellsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D447B1F589D60004F86C4 /* _0_HW_UITableView__Dynamic_CellsUITests.m */; };
+		118D448E1F58AFED004F86C4 /* RandomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D448D1F58AFED004F86C4 /* RandomClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		118D44771F589D60004F86C4 /* 20_HW-UITableView_ Dynamic_CellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20_HW-UITableView_ Dynamic_CellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		118D447B1F589D60004F86C4 /* _0_HW_UITableView__Dynamic_CellsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0_HW_UITableView__Dynamic_CellsUITests.m; sourceTree = "<group>"; };
 		118D447D1F589D60004F86C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118D448C1F58AFED004F86C4 /* RandomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomClass.h; path = ../RandomClass.h; sourceTree = "<group>"; };
+		118D448D1F58AFED004F86C4 /* RandomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RandomClass.m; path = ../RandomClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				118D445A1F589D5F004F86C4 /* AppDelegate.m */,
 				118D445C1F589D5F004F86C4 /* ViewController.h */,
 				118D445D1F589D5F004F86C4 /* ViewController.m */,
+				118D448C1F58AFED004F86C4 /* RandomClass.h */,
+				118D448D1F58AFED004F86C4 /* RandomClass.m */,
 				118D445F1F589D5F004F86C4 /* Main.storyboard */,
 				118D44621F589D5F004F86C4 /* Assets.xcassets */,
 				118D44641F589D5F004F86C4 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				118D445E1F589D5F004F86C4 /* ViewController.m in Sources */,
 				118D445B1F589D5F004F86C4 /* AppDelegate.m in Sources */,
 				118D44581F589D5F004F86C4 /* main.m in Sources */,
+				118D448E1F58AFED004F86C4 /* RandomClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RandomClass.h
 //  20_HW-UITableView_ Dynamic_Cells
 //
 //  Created by Вячеслав Алексеевич on 31.08.17.
@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDataSource>
+@interface RandomClass : UIView
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) UIColor *color;
+
+- (UIColor *)randomColor;
+- (NSString *)randomName;
 
 @end
-
